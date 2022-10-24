@@ -12,5 +12,5 @@ Paper on the Gravity Spy database: https://iopscience.iop.org/article/10.1088/13
 #To train the autoencoder
 1. Download or query the Gravity Spy database to retrieve all of the glitchs' metadata
 2. Feed these metadata into MLy's generator function to create timeseries of glitches with real noise
-3. Process the glitch labels into a one-hot encoding
-4. Train the autoencoder a given glitch type 
+3. Train the autoencoder on a given glitch type
+4. Test it on simulated transient events
